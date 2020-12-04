@@ -1,0 +1,56 @@
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+form legend {
+    color: #333;
+    font-size: 55px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 35px;
+    font-family: Bilbo;
+}
+
+.input-block #nome {
+    font-size: 12px;
+
+    justify-content: center;
+    padding: 15px;
+    height: 15px;
+    margin-bottom: 5px;
+    width: 260px;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.input-block #senha {
+    font-size: 12px;
+
+    justify-content: center;
+    padding: 15px;
+    height: 15px;
+    width: 260px;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.btn {
+    opacity: 0.3;
+    margin-top: 15px;
+    width: 260px;    
+    height: 33px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background-color: #0095f6;
+    background-color: rgba(var(d69,0,149,246),1);
+}
+
+.btn p {
+    font-weight: bold;
+    color: #fff;
+}

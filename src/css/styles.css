@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    color: #fff;
+    background: #f5f5f5;
+}
+
+main {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.imagem-cell {
+    width: clamp(20rem, 30rem, 27rem);
+    justify-content: center;
+}
+.column-instagram {
+    flex-direction: column;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    width: 340px;
+    height: 375px;
+    border: 1px solid #ccc;
+}
+
+.separador{
+    margin: 10px 40px;
+    height: 1px;
+    background-color: #ccc;
+    text-align: center;
+}
+
+.separador span {
+    background-color: white;
+    position: relative;
+    top: -0.5em;
+    padding: 0 10px;
+    color: #ccc;
+}
+
+.facebook-texto {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: 'row';
+    align-items: center;
+    justify-content: center;
+}
+
+.facebook-texto a {
+    margin-left: 10px;
+    color: #333;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.facebook-icon {
+    width: 16px;
+    height: 16px;
+}
+
+.esqueceu-senha {
+    margin-top: 20px;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    color: #333;
+}
+
+.cadastro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    background: #fff;
+    width: 350px;
+    height: 65px;
+    border: 1px solid #ccc;
+}
+
+.cadastro .msg-cadastro {
+    color: #333;
+    font-size: 16px;
+}
+
+.cadastro .msg-cadastro .link-cadastro {
+    text-decoration: none;
+    color: #0095f6;
+}
+
+.obter-app{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.mensagem-app {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 16px;
+}
+
+.store-image {
+    flex-direction: row;
+}
+
+.store-icon {   
+    width: 145px;
+    height: 43px;
+}
+
+@media (max-width: 650px) {
+    .column-image {
+        display: none;
+    }
+}

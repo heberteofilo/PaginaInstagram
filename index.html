@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width , initial-scale=1.0" />
+        <title>Instagram</title>
+
+        <link rel="icon" href="./src/img/icon-instagram.png" />
+
+        <link rel="stylesheet" href="./src/css/styles.css"/>
+        <link rel="stylesheet" href="./src/css/form.css"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Bilbo&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+        <main id="container">
+            <div class="column-image">
+                <img 
+                src="./src/img/insta-cell.png" 
+                alt="Imagem Celular" 
+                class="imagem-cell"
+                />
+            </div>
+            <div class="column-instagram">
+                <div class="login">
+                    <form action="login-instagram" submit="" >
+                        <legend>Instagram</legend>
+                        <div class="input-block" >
+                            <input id="nome" name="nome" 
+                            placeholder="Telefone, nome de usuário ou email"
+                            />
+                        </div>
+                        <div class="input-block" >
+                            <input id="senha" name="senha" 
+                            placeholder="Senha"
+                            />
+                        </div> 
+                        <button type="button" class="btn" onclick="">
+                            <p>Entrar</p>
+                        </button>            
+                    </form> >
+
+                    <div class="separador">
+                        <span>
+                            OU
+                        </span>
+                    </div>
+
+                    <div class="facebook-texto">
+                        <img 
+                        src="./src/img/facebook.png" 
+                        alt="facebook-icon"
+                        class="facebook-icon"
+                        >
+                        <a href="https://google.com" target="_blank">Entrar com o Facebook</a>
+                    </div>
+
+                    <a 
+                    href="http://www.google.com" 
+                    target="_blank"
+                    class='esqueceu-senha'
+                    >Esqueceu a senha?
+                    </a>
+
+                </div>
+                <div class="cadastro">
+                    <p class="msg-cadastro">Não tem a uma conta? 
+                        <a 
+                        class="link-cadastro"
+                        href="https://google.com.br"
+                        target="_blank"
+                        >Cadastre-se
+                        </a>
+                    </p>
+                </div>
+                <div class="obter-app">
+                    <p class="mensagem-app" >Obtenha o aplicativo.</p>
+                    <div class="store-image">
+                        <img 
+                        src="./src/img/appstore.png" 
+                        alt="appstore"
+                        class="store-icon"
+                        >
+                        <img 
+                        src="./src/img/playstore.png" 
+                        alt="playstore"
+                        class="store-icon"
+                        >
+                    </div>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>
